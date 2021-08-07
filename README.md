@@ -21,6 +21,11 @@ FIVEM Simple Notify System using polipop notify
     TriggerEvent('renzu_notify:Notify','default','Renzu Notify', 'This is a Free Notify Available at Github', option)
 ```
 
+# Preview
+
+![image](https://user-images.githubusercontent.com/82306584/128595924-2403cab8-e499-4601-a08d-5cb22f649cfd.png)
+
+
 # Copyright
 https://github.com/minitek/polipop
 
