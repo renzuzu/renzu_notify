@@ -1,0 +1,186 @@
+.polipop_theme_compact {
+    font-size: 14px;
+  }
+  .polipop_theme_compact .polipop__closer {
+    font-weight: 600;
+    color: #777777;
+  }
+  .polipop_theme_compact .polipop__closer:hover {
+    color: #555555;
+  }
+  .polipop_theme_compact .polipop__closer-count {
+    background: #0ec47d;
+    color: #ffffff;
+    border-radius: 0;
+    font-weight: 600;
+  }
+  .polipop_theme_compact .polipop__notification {
+    color: #555555;
+    padding: 0;
+  }
+  .polipop_theme_compact .polipop__notification-progress {
+    background-color: transparent;
+  }
+  .polipop_theme_compact .polipop__notification-icon {
+    padding: 6px 5px 5px;
+  }
+  .polipop_theme_compact .polipop__notification-icon svg {
+    fill: #ffffff;
+  }
+  .polipop_theme_compact .polipop__notification-inner {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .polipop_theme_compact .polipop__notification-close {
+    background-color: transparent;
+    color: inherit;
+    border-radius: 0;
+  }
+  .polipop_theme_compact .polipop__notification-close:hover {
+    outline: none;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  .polipop_theme_compact .polipop__notification-content {
+    line-height: 24px;
+    font-weight: 300;
+    text-shadow: #3f4842 0.5px 0.5px;
+    /* color: #e6e6e6; */
+    font-size: 16px;
+  }
+  .polipop_theme_compact .polipop__notification_type_success {
+    background-color: #0ec47d;
+    color: #ffffff;
+    background: rgb(23,110,34);
+    background: linear-gradient(0deg, rgb(72 160 61) 0%, rgb(116 255 108 / 68%) 100%);
+  }
+  .polipop_theme_compact .polipop__notification_type_info,
+  .polipop_theme_compact .polipop__notification_type_notice {
+    background-color: #00b1fe;
+    color: #ffffff;
+    background: rgb(0,236,255);
+    background: linear-gradient(0deg, rgb(29 183 195) 0%, rgb(31 132 230 / 62%) 100%);
+  }
+  .polipop_theme_compact .polipop__notification_type_warning {
+    background-color: #fdc92de0;
+    text-shadow: #d0d0d0 1px 1px !important;
+    color: #ffffff;
+    background: rgb(255,241,81);
+    background: linear-gradient(0deg, #ffc003 0%, rgb(255 212 0 / 59%) 100%);
+  }
+  .polipop_theme_compact
+    .polipop__notification_type_warning
+    .polipop__notification-icon
+    svg {
+    fill: #555555;
+  }
+  .polipop_theme_compact .polipop__notification_type_error {
+    background-color: #f76860;
+    color: #ffffff;
+    background: rgb(254,0,65);
+    background: linear-gradient(0deg, rgb(255 91 99) 0%, rgb(156 29 6 / 78%) 100%);
+  }
+  .polipop_theme_compact .polipop__notification_type_default {
+    background-color: #ffffff;
+    color: #555555;
+    background: rgb(254,254,254);
+    background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgb(197 204 210 / 69%) 100%);
+  }
+  .polipop_theme_compact
+    .polipop__notification_type_default
+    .polipop__notification-icon
+    svg {
+    fill: #555555;
+  }
+  .polipop_layout_panel.polipop_theme_compact {
+    background-color: #f2f7fa;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__header {
+    background-color: #e8e8e8;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__header-inner {
+    background-color: #edf4f9;
+  }
+  .polipop_layout_panel.polipop_theme_compact
+    .polipop__header-inner:hover
+    .polipop__header-minimize {
+    color: #555555;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__header-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #777777;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__header-count {
+    background: #00b1fe;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__header-minimize {
+    color: #999999;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__notification {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  .polipop_layout_panel.polipop_theme_compact
+    .polipop__notification_type_success {
+    border-color: #0daf71;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__notification_type_info,
+  .polipop_layout_panel.polipop_theme_compact .polipop__notification_type_notice {
+    border-color: #009de0;
+  }
+  .polipop_layout_panel.polipop_theme_compact
+    .polipop__notification_type_warning {
+    border-color: #e0aa07;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__notification_type_error {
+    border-color: #d64f48;
+  }
+  .polipop_layout_panel.polipop_theme_compact
+    .polipop__notification_type_default {
+    border-color: #e8e8e8;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__notification-title {
+    line-height: 22px;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__closer {
+    font-weight: 600;
+    color: #777777;
+  }
+  .polipop_layout_panel.polipop_theme_compact .polipop__closer:hover {
+    color: #555555;
+  }
+  .polipop_layout_popups.polipop_theme_compact .polipop__notification {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    border-bottom-width: 4px  !important;
+    border-bottom-style: solid  !important;
+    border-left-style: outset !important;
+    border-left-width: 4px  !important;
+    /* border-left-color: #ececec; */
+    border-color: #dcdcdc  !important;
+    border-radius: 5px;
+  }
+  .polipop_layout_popups.polipop_theme_compact .polipop__notification-title {
+    line-height: 24px;
+    margin: 0 0 3px;
+    text-shadow: #8a8a8a 1px 1px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .polipop_layout_popups.polipop_theme_compact .polipop__closer {
+    background-color: #333333;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    font-weight: 400;
+    color: #eeeeee;
+    border-color: #222222;
+  }
+  .polipop_layout_popups.polipop_theme_compact .polipop__closer:hover {
+    color: #ffffff;
+  }
+  
